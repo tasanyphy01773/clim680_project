@@ -80,50 +80,59 @@ Figure 02 shows the time when there was El Nino and when there was La Nina. As w
 </figure>
 
 
-In Figure 03, a composite analysis was conducted, where we can see both in the El Nino and La nina event the increase of the evaporation from the climatological mean (period 2001 to 2004) is prominent than the Neutral phase; where the change is less. This could be we have a lot of data from the neutral event which might give us a wrong interpretition. 
+In Figure 03, a composite analysis was conducted. In the El Nino and La Nina events, the evaporation increase from the climatological mean (2001 to 2004) is more prominent than in the Neutral phase, where the change is less; this could be because we have a lot of data from the neutral event, which might give us a wrong interpretation. 
 
 <figure style="text-align: center;">
     <img src="./images/download-1.png" alt="ENSO EVAP" width="550" style="display: block; margin-left: auto; margin-right: auto;">
     <figcaption>Figure 3: Composite Evaporation Anomalies during ENSO </figcaption>
 </figure>
 
-
 ### IOD and Evaporation 
+The positive and negative phases of the IOD throughout that period are shown in Figure 04. Since the time period we are working with is short, there are only about 1 positive IOD and 6 negative IOD, with larger time of the Neutral IOD.
+
 <figure style="text-align: center;">
     <img src="./images/download-2.png" alt="IOD" width="550" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption>Figure 3: IOD</figcaption>
+    <figcaption>Figure 4: Indian Ocean Dipole (DMI)</figcaption>
 </figure>
+
+In Figure 05, a composite analysis during IOD is conducted. In the positive phase of the IOD, the increase in evaporation is more prominent than in the negative and neutral IOD. In contrast, there is seen some decrease in the evaporation for the negative IOD events. The response is more interesting in Australia. I will show the regional impact on Australia later. 
 
 <figure style="text-align: center;">
     <img src="./images/download-3.png" alt="IOD Evap" width="550" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption>Figure 4: IOD Evap</figcaption>
+    <figcaption>Figure 05: Composite Evaporation Anomalies during IOD</figcaption>
 </figure>
 
 
 ### Dual influence of ENSO and IOD over Evaporation
+Let us indulge in the dual influence of ENSO and IOD on a global scale. Figure 06 shows the combined period of ENSO and IOD. There are five distinct events: green for the Negative IOD and La Nina events, light black for the Negative IOD and El Lino events, blue for Positive IOD and La Nina, red for Positive IOD and El Nino, and white gray for No events. There are no Positive IOD and La Nina events, as the time range is too small. The Negative IOD and El Nino, and Positive IOD and El Nino events dominate the time range here, after no events.
+
 
 <figure style="text-align: center;">
     <img src="./images/download-4.png" alt="ENSO IOD" width="550" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption>Figure 5: ENSO IOD</figcaption>
+    <figcaption>Figure 06: ENSO IOD Combined events</figcaption>
 </figure>
+
+In Figure 07, the southern hemisphere shows a high response due to the combined effects of all the events. The most dominant increase was seen for the Negative IOD and La Nina event. The no-events period again shows less response as there is more data for the no-events period, which puts more weight on the mean over other occasions. But despite this problem, Australia shows an interesting pattern in response to all the events. Which make me to look into more regional scale of Australia. 
 
 <figure style="text-align: center;">
     <img src="./images/download-5.png" alt="ENSO IOD Evap" width="550" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption>Figure 6: ENSO IOD Evap</figcaption>
+    <figcaption>Figure 07: Composite mean evaporation anomaly for ENSO and IOD</figcaption>
 </figure>
 
 
 
 ### Influence over Australia 
+In Australia, we can see a more dominant evaporation increase due to the Negative IOD-La Nina events. At the same time, Negative IOD-El Nino events show a decrease in many areas. The no-events period was less responsive as usual.
 
 <figure style="text-align: center;">
     <img src="./images/download-6.png" alt="Comp. Evap Aus" width="550" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption>Figure 7: Comp. Evap Aus</figcaption>
+    <figcaption>Figure 08: Composite mean Evaporation anomaly of Australia</figcaption>
 </figure>
+In Figure 09, I delved into the correlation of evaporation with the Nino 3.4 index, and the statistical significance is also shown here for a p-value = 0.01. The negative correlation is more statistically significant than the positive correlation here. 
 
 <figure style="text-align: center;">
     <img src="./images/download-7.png" alt="Corr with Statistical significance" width="550" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption>Figure 8: Correlation with Statistical Significance</figcaption>
+    <figcaption>Figure 09: Correlation of Evaporation with ENSO with Statistical Significance</figcaption>
 </figure>
 
 
