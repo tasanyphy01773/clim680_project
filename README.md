@@ -54,7 +54,7 @@ Zarr employs a hierarchical storage model, similar to directories and files in a
 | Analysis | Description | Notebook |
 |----------|-------------|---------------|
 | ENSO and Evaporation | In this analysis, I analyzed only the effect of ENSO in Evaporation, by aggregating statistical analysis, anomalies, composite analysis, etc.| [View Notebook](https://example.com/climatologies_notebook) |
-| ENSO and IOD | In this analysis, I analyzed only the effect of IOD in Evaporation, by aggregating statistical analysis, anomalies, composite analysis, etc. | [View Notebook](https://example.com/climatologies_notebook) |
+| IOD and Evaporation | In this analysis, I analyzed only the effect of IOD in Evaporation, by aggregating statistical analysis, anomalies, composite analysis, etc. | [View Notebook](https://example.com/climatologies_notebook) |
 | Dual Influence of ENSO and IOD | I showed the dual influence of ENSO and IOD by calculating overlapping time and then showed composite analysis for Positive IOD and El Nino, No Events, Negative IOD and El Nino, Negative IOD and La Nina. As there is not timesteps where Positive IOD and La Lina occurs, it is not shown here. | [View Notebook](https://example.com/climatologies_notebook) |
 | Effects of ENSO and IOD over Australia | Here, I showed the combined effect of ENSO and IOD over Australia where I performs temporal correlation coefficient, statistical significance etc. | [View Notebook](https://example.com/climatologies_notebook) |
 | Solar Flux and Evaporation | In this analysis, I analyzed the effect of solar flux in Evaporation, there was no significant relationship found in the given timeline so in the main project I exclueded the solar flux | [View Notebook](https://github.com/tasanyphy01773/CLIM680/blob/main/Assignment03_680.ipynb) |
@@ -135,9 +135,8 @@ In Figure 09, I delved into the correlation of evaporation with the Nino 3.4 ind
     <figcaption>Figure 09: Correlation of Evaporation with ENSO with Statistical Significance</figcaption>
 </figure>
 
-
 ## Summary
-
+In summary, 
 
 
 ## Reference
