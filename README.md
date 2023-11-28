@@ -128,7 +128,7 @@ In Australia, we can see a more dominant evaporation increase due to the Negativ
     <img src="./images/download-6.png" alt="Comp. Evap Aus" width="550" style="display: block; margin-left: auto; margin-right: auto;">
     <figcaption>Figure 08: Composite mean Evaporation anomaly of Australia</figcaption>
 </figure>
-In Figure 09, I delved into the correlation of evaporation with the Nino 3.4 index, and the statistical significance is also shown here for a p-value = 0.01. The negative correlation is more statistically significant than the positive correlation here. 
+In Figure 09, I delved into the correlation of evaporation with the Nino 3.4 index, and the statistical significance is also shown here for a p-] value = 0.05 (95% confidence level). The negative correlation is more statistically significant than the positive correlation here. 
 
 <figure style="text-align: center;">
     <img src="./images/download-7.png" alt="Corr with Statistical significance" width="550" style="display: block; margin-left: auto; margin-right: auto;">
