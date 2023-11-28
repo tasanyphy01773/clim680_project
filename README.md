@@ -136,8 +136,7 @@ In Figure 09, I delved into the correlation of evaporation with the Nino 3.4 ind
 </figure>
 
 ## Summary
-In summary, 
-
+To summarize, the combined impact of ENSO and IOD significantly affects the evaporation response in different geographical regions such as South America, Australia, Africa, and others. I would do the linear regression analysis for all the events. Also, I would analyze the seasonal response over this timeframe. The data timespan was too small to truly depict the real picture. I would take 30 years of data to calculate the climatological mean. I have faced some computational challenges due to the data structure and twelve-hour time limit of the interactive Jupyter lab, as it takes longer to simulate the results. I would submit a job for this on SLURM.
 
 ## Reference
 - Ham, YG., Choi, JY. & Kug, JS. The weakening of the ENSO–Indian Ocean Dipole (IOD) coupling strength in recent decades. Clim Dyn 49, 249–261 (2017). https://doi.org/10.1007/s00382-016-3339-5
