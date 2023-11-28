@@ -25,6 +25,8 @@ To generate the FLUXCOM dataset, researchers from the Max Planck Institutes for 
 <img src="https://github.com/tasanyphy01773/clim680_project/assets/68806666/87ceb90e-6611-4ed7-a014-d339debec523" width="350">
 
 
+
+
 #### 💾 Zarr Format
 "*Zarr is a format tailored for **chunked**, **compressed**, and **N-dimensional arrays**. It serves both as a storage and computational format to efficiently manage large datasets.*" More details can be found in the [official documentation](https://zarr.readthedocs.io/en/stable/).
 
@@ -59,9 +61,70 @@ Zarr employs a hierarchical storage model, similar to directories and files in a
 | Monthly Mean of Evaporation | This is a supporting notebook from assigment 02. Here I showed the Monthly mean of evaporation over 12 months for period 2001 to 2003| [View Notebook](https://github.com/tasanyphy01773/CLIM680/blob/main/Assignment02_680.ipynb) |
 | Seasonal Changes of Evaporation | Here in the notebook refers to the assingment 01. I showed the seasonal changes of evaporation over period 2001 to 2003. Ingore the metadata like units. | [View Notebook](https://github.com/tasanyphy01773/CLIM680/blob/main/Assingment01_680.ipynb)
 
-In my reports, I performed various analysis including aggregation of data for mean, standard deviation, calculating climatologies by month and seasons, and determining anomalies. I also conducted composite analysis with a climate index (Nino 3.4 and DMI), created composite anomaly plots with statistical significance, and developed custom Python functions for specific data operations. Additionally, I calculated and plotted the temporal correlation coefficient between the gridded data and ENSO, providing insightful views into the evaporation and the dual driver climate patterns and relationships.
+In my reports, I performed various analysis including aggregation of data for mean, standard deviation, calculating climatologies by month and seasons, and determining anomalies. I also conducted composite analysis with Nino 3.4 and DMI, created composite anomaly plots with statistical significance, and developed custom Python functions for specific data operations. Additionally, I calculated and plotted the temporal correlation coefficient between the gridded data and ENSO, providing insightful views into the evaporation and the dual driver climate patterns and relationships.
 
 ## Results
+### Evaporation
+We are now looking at the monthly mean evaporation from 2001 to 2003 (Figure 01). Each map uses a color gradient to indicate the rate of evaporation, with the scale provided at the bottom ranging from 0.00 to 0.28 millimeters per hour (mm/hour). Areas near the equator show a consistent presence of high evaporation rates throughout the year, likely due to higher temperatures and more intense sunlight. In contrast, the polar regions  indicates very low evaporation rates, which can be attributed to the cold temperatures and less sunlight
+
+<figure style="text-align: center;">
+    <img src="./images/download-8.png" alt="Monthly Evaporation" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 1: Monthly Mean Evaporation</figcaption>
+</figure>
+
+### ENSO and Evaporation 
+Figure 02 shows the time when there was El Nino and when there was La Nina. As we are working with a very small time limit, the number of El Nino event (Nino 3.4 index>0.5) was 2 and around 2 La Nina. Where we have very few data from La Nina.
+<figure style="text-align: center;">
+    <img src="./images/download_en.png" alt="ENSO" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 2: ENSO (Nino 3.4)</figcaption>
+</figure>
+
+
+In Figure 03, a composite analysis was conducted, where we can see both in the El Nino and La nina event the increase of the evaporation from the climatological mean (period 2001 to 2004) is prominent than the Neutral phase; where the change is less. This could be we have a lot of data from the neutral event which might give us a wrong interpretition. 
+
+<figure style="text-align: center;">
+    <img src="./images/download-1.png" alt="ENSO EVAP" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 3: Composite Evaporation Anomalies during ENSO </figcaption>
+</figure>
+
+
+### IOD and Evaporation 
+<figure style="text-align: center;">
+    <img src="./images/download-2.png" alt="IOD" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 3: IOD</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <img src="./images/download-3.png" alt="IOD Evap" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 4: IOD Evap</figcaption>
+</figure>
+
+
+### Dual influence of ENSO and IOD over Evaporation
+
+<figure style="text-align: center;">
+    <img src="./images/download-4.png" alt="ENSO IOD" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 5: ENSO IOD</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <img src="./images/download-5.png" alt="ENSO IOD Evap" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 6: ENSO IOD Evap</figcaption>
+</figure>
+
+
+
+### Influence over Australia 
+
+<figure style="text-align: center;">
+    <img src="./images/download-6.png" alt="Comp. Evap Aus" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 7: Comp. Evap Aus</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <img src="./images/download-7.png" alt="Corr with Statistical significance" width="550" style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption>Figure 8: Correlation with Statistical Significance</figcaption>
+</figure>
 
 
 ## Summary
